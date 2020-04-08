@@ -13,6 +13,8 @@
 		95E5FADE2439825400C7CBFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95E5FADD2439825400C7CBFC /* Assets.xcassets */; };
 		95E5FAE12439825400C7CBFC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95E5FAE02439825400C7CBFC /* Preview Assets.xcassets */; };
 		95E5FAE42439825400C7CBFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95E5FAE22439825400C7CBFC /* LaunchScreen.storyboard */; };
+		95E5FAEC2439856500C7CBFC /* habit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E5FAEB2439856500C7CBFC /* habit.swift */; };
+		95E5FAEE2439A65300C7CBFC /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E5FAED2439A65300C7CBFC /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		95E5FAE02439825400C7CBFC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		95E5FAE32439825400C7CBFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		95E5FAE52439825400C7CBFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95E5FAEB2439856500C7CBFC /* habit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = habit.swift; sourceTree = "<group>"; };
+		95E5FAED2439A65300C7CBFC /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				95E5FAD72439825100C7CBFC /* AppDelegate.swift */,
 				95E5FAD92439825100C7CBFC /* SceneDelegate.swift */,
 				95E5FADB2439825100C7CBFC /* ContentView.swift */,
+				95E5FAED2439A65300C7CBFC /* DetailView.swift */,
+				95E5FAEB2439856500C7CBFC /* habit.swift */,
 				95E5FADD2439825400C7CBFC /* Assets.xcassets */,
 				95E5FAE22439825400C7CBFC /* LaunchScreen.storyboard */,
 				95E5FAE52439825400C7CBFC /* Info.plist */,
@@ -148,6 +154,8 @@
 			files = (
 				95E5FAD82439825100C7CBFC /* AppDelegate.swift in Sources */,
 				95E5FADA2439825100C7CBFC /* SceneDelegate.swift in Sources */,
+				95E5FAEC2439856500C7CBFC /* habit.swift in Sources */,
+				95E5FAEE2439A65300C7CBFC /* DetailView.swift in Sources */,
 				95E5FADC2439825100C7CBFC /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
